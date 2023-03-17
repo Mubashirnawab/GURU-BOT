@@ -4,10 +4,10 @@ let handler = async function (m, { conn, text, usedPrefix }) {
 
 let m2 = `
 ᴛʜᴇ ɢᴜʀᴜ ʙᴏᴛ ꜱᴄʀɪᴘᴛ
-https://github.com/Guru322/GURU-BOT
+923466056497
 ᴅᴏ ꜱᴛᴀʀ ᴛʜᴇ ʀᴇᴘᴏ ᴀɴᴅ ꜰᴏʀᴋ
 `
-let pp = 'AsliGuru' 
+let pp = 'MUBASHIR NAWAB' 
 conn.sendButton(m.chat, m2, pp, [
   ['⏍ Info', `${usedPrefix}botinfo`],
   ['⌬ Groups', `${usedPrefix}gpguru`]
