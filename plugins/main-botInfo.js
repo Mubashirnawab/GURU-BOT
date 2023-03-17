@@ -52,17 +52,17 @@ let infobt = `
 ▢ *${chats.length}* Total Chats
 
 *≡ OWNER*
-  *GURU*
+  *MUBASHIR NAWAB*
 ▢ Instagram :
-  • https://instagram.com/asli_guru69
+  • 923247653527
 ▢ WhatsApp :
   • (NO NEED) 
 ▢ GitHub :
-  • https://github.com/Guru322
+  • 923247653527
 ▢ Telegram : 
-  • t.me/i_want_to_be_isekaied (GURU) 
+  • 923466056497 (NAWAB) 
 ▢ YouTube : 
-  • https://youtube.com/@Asliguru
+  • 923466056497
 
  *≡ S E R V E R*
 *🛑 RAM:* ${format(totalmem() - freemem())} / ${format(totalmem())}
@@ -73,7 +73,7 @@ ${'```' + Object.keys(used).map((key, _, arr) => `${key.padEnd(Math.max(...arr.m
 `
 conn.sendButton(m.chat, infobt, igfg, null, [
   ['ꨄ︎ donate', `${usedPrefix}donate`],
-   ['⌬ Groups', `${usedPrefix}gpguru`]
+   ['⌬ INFO', `${usedPrefix}INFO`]
  ], m)
 
 }
